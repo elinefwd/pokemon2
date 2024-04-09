@@ -1,6 +1,6 @@
 
 
-public class Pokemon {
+public abstract class Pokemon {
     private String name;
     private String type; // Fire, Water, Grass, Electric, etc.
     private int level;
@@ -26,6 +26,8 @@ public class Pokemon {
     public void setName(String name) {
         this.name = name;
     }
+
+    public abstract void attack();
 
     // Implement similar getters and setters for type, level, and hp
 }
