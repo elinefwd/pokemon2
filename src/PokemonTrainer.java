@@ -1,4 +1,5 @@
-
+import java.util.List;
+import java.util.ArrayList;
 public class PokemonTrainer {
     private String name;
     private List<Pokemon> pokemons;

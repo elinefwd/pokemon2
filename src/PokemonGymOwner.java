@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 public class PokemonGymOwner {
     private String name;
     private String town;
@@ -24,6 +27,7 @@ public class PokemonGymOwner {
     }
 
     public void setTown(String town) {
+
         this.town = town;
     }
 
